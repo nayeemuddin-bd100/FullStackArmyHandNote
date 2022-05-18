@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- partials er maddome common jinsish gula store kore rakha hoi -->
+ <%- include('../partials/head.ejs') %>
+  <body >
+    <div class="container">
+      <%- include('../partials/nav.ejs')%>
+
+      <h1> <%= title %> </h1>
+      <small>
+          Date: <%= new Date().toISOString() %>
+      </small>
+      <p>You are beauty</p>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam cupiditate eligendi magni assumenda voluptate necessitatibus cum sapiente, deleniti aspernatur. Deleniti aspernatur ducimus mollitia id quidem sapiente dolores sed, eum quam.</p>
+      <button class="btn"> Call me</button>
+    </div>
+  </body>
+</html>
